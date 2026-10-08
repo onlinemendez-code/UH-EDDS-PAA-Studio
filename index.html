@@ -752,5 +752,21 @@
   </div>
 </footer>
 
+<!-- ==== АВТО-ПЕРЕВОД САЙТА ==== -->
+<script src="https://cdn.staticfile.net/translate.js/3.18.66/translate.js"></script>
+<script>
+  // Язык оригинала сайта
+  translate.language.setLocal('russian');
+
+  // Бесплатный сервис перевода
+  translate.service.use('client.edge');
+
+  // Автоматически переводить на язык браузера
+  translate.execute();
+
+  // Отслеживать изменения на странице
+  translate.listener.start();
+</script>
+
 </body>
 </html>
